@@ -1,5 +1,5 @@
 galaxy_info:
-  author: Miguel Soranno, Juan Lara
+  author: Juan Lara, MS
   description: Upload a file using sshpass from local to a sftp server.
   company: 
 
@@ -216,6 +216,8 @@ galaxy_info:
   galaxy_tags: 
     - sshpass
     - sftp 
+    - proxy
+    - ncat
 
     # List tags for your role here, one per line. A tag is
     # a keyword that describes and categorizes the role.
