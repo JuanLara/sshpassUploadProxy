@@ -1,14 +1,14 @@
 ---
-- name: UPLOAD PROCESS
-  hosts: 192.168.122.147
+- name: Proceso de subida
+  hosts: 192.168.1.31
   remote_user: root
   roles:
     - role: sshpassUploadProxy-master.tar.gz
-      v_usr: usuario2
-      v_pass: 123456789
-      v_server: 192.168.122.22
-      upload_this_file: archivoprueba
-      v_remotePath: home/
-      v_localPath: /root/
+      J_usr: usuario2
+      u_pass: 123456789
+      a_server: 192.168.122.22
+      subir_este_archivo: archivoprueba
+      n_remotePath: home/
+      L_localPath: /root/
       proxy: 192.168.122.106
       puerto: 8080
