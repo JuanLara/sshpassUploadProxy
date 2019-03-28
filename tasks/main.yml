@@ -1,5 +1,5 @@
 ---
-# tasks file for sshpassUpload
+# Archivo tareas para sshpassUpload
 
 - name: Subiendo Archivo "{{ subir_este_archivo }}"
   script: uploadSftp.sh "{{ J_usr }}" "{{ u_pass }}" "{{ a_server }}" "{{ n_remotePath }}" "{{ L_localPath }}" "{{ subir_este_archivo }}" "{{ proxy }}" "{{ puerto }}"
