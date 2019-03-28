@@ -1,7 +1,7 @@
 ---
 # tasks file for sshpassUpload
 
-- name: upload file "{{ upload_this_file }}"
-  script: uploadSftp.sh "{{ v_usr }}" "{{ v_pass }}" "{{ v_server }}" "{{ v_remotePath }}" "{{ v_localPath }}" "{{ upload_this_file }}" "{{ proxy }}" "{{ puerto }}"
+- name: Subiendo Archivo "{{ subir_este_archivo }}"
+  script: uploadSftp.sh "{{ J_usr }}" "{{ u_pass }}" "{{ a_server }}" "{{ n_remotePath }}" "{{ L_localPath }}" "{{ subir_este_archivo }}" "{{ proxy }}" "{{ puerto }}"
   tags:
     - playme
