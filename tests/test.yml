@@ -4,10 +4,10 @@
   remote_user: root
   roles:
     - role: sshpassUploadProxy-master.tar.gz
-      J_usr: usuario2
+      J_usr: usuario1
       u_pass: 123456789
-      a_server: 192.168.122.22
-      subir_este_archivo: archivoprueba
+      a_server: 192.168.1.156
+      subir_este_archivo: /tmp/archivoprueba
       n_remotePath: home/
       L_localPath: /root/
       proxy: 192.168.122.106
